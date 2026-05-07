@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GrocMed | Privacy Policy</title>
+    <style>
+        :root {
+            --green: #16a34a;
+            --orange: #f97316;
+            --dark: #1f2937;
+            --light: #f9fafb;
+            --white: #ffffff;
+            --gray: #6b7280;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Arial, sans-serif;
+        }
+
+        body {
+            background: var(--light);
+            color: var(--dark);
+            line-height: 1.7;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: var(--white);
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+            padding: 16px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-section img {
+            width: 48px;
+            height: 48px;
+            object-fit: contain;
+        }
+
+        .brand {
+            font-size: 24px;
+            font-weight: 800;
+            color: var(--orange);
+        }
+
+        .brand span {
+            color: var(--green);
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark);
+            margin-left: 24px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--orange);
+        }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, var(--green), var(--orange));
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .hero h1 {
+            font-size: 44px;
+            margin-bottom: 12px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            opacity: 0.95;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 950px;
+            margin: 40px auto;
+            padding: 40px;
+            background: white;
+            border-radius: 18px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .updated {
+            color: var(--gray);
+            margin-bottom: 25px;
+            font-size: 15px;
+        }
+
+        h2 {
+            color: var(--green);
+            margin-top: 32px;
+            margin-bottom: 14px;
+            font-size: 24px;
+            border-left: 5px solid var(--orange);
+            padding-left: 12px;
+        }
+
+        p,
+        li {
+            font-size: 16px;
+            color: #374151;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 24px;
+        }
+
+        .info-box {
+            background: #fff7ed;
+            border-left: 5px solid var(--orange);
+            padding: 18px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark);
+            color: white;
+            margin-top: 60px;
+            padding: 50px 20px 25px;
+        }
+
+        .footer-container {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .footer-brand h3 {
+            font-size: 28px;
+            color: var(--orange);
+            margin-bottom: 10px;
+        }
+
+        .footer-brand h3 span {
+            color: var(--green);
+        }
+
+        .footer-brand p {
+            color: #d1d5db;
+            max-width: 320px;
+        }
+
+        .footer-links h4,
+        .footer-contact h4 {
+            margin-bottom: 12px;
+            color: white;
+        }
+
+        .footer-links a {
+            display: block;
+            color: #d1d5db;
+            text-decoration: none;
+            margin-bottom: 8px;
+            transition: 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: var(--orange);
+        }
+
+        .footer-contact p {
+            color: #d1d5db;
+            margin-bottom: 8px;
+        }
+
+        .copyright {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #374151;
+            color: #9ca3af;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .nav-links a {
+                margin: 0 10px;
+            }
+
+            .hero h1 {
+                font-size: 34px;
+            }
+
+            .container {
+                margin: 20px;
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo-section">
+            <img src="./logo.png" alt="GrocMed Logo">
+            <div class="brand">Groc<span>Med</span></div>
+        </div>
+
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Support</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h1>Privacy Policy</h1>
+        <p>Your privacy matters to us. Here's how GrocMed handles your information.</p>
+    </section>
+
+    <!-- Content -->
+    <main class="container">
+        <p class="updated"><strong>Effective Date:</strong> May 2026</p>
+
+        <p>
+            Welcome to <strong>GrocMed</strong>. We are committed to protecting your personal information and
+            maintaining transparency in how your data is handled while using our platform.
+        </p>
+
+        <h2>Information We Collect</h2>
+        <ul>
+            <li>Name and account details</li>
+            <li>Email address and phone number</li>
+            <li>Delivery address</li>
+            <li>Order and purchase history</li>
+            <li>Basic device and app usage information</li>
+        </ul>
+
+        <h2>How We Use Your Information</h2>
+        <ul>
+            <li>Process and manage orders</li>
+            <li>Improve user experience and app functionality</li>
+            <li>Provide customer support</li>
+            <li>Send order updates and important service notifications</li>
+        </ul>
+
+        <h2>Permissions</h2>
+        <div class="info-box">
+            GrocMed only requests permissions necessary for app functionality such as internet access and notifications.
+        </div>
+        <p>
+            We do not intentionally access camera, microphone, contacts, or location unless future features explicitly
+            require user permission.
+        </p>
+
+        <h2>Third-Party Services</h2>
+        <p>
+            We may work with trusted third-party providers for payment processing, analytics, notifications, and
+            delivery support.
+        </p>
+
+        <h2>Data Security</h2>
+        <p>
+            We implement industry-standard safeguards to protect your personal information against unauthorized access,
+            disclosure, or misuse.
+        </p>
+
+        <h2>Children's Privacy</h2>
+        <p>
+            GrocMed is not intended for children under 13 years of age.
+        </p>
+
+        <h2>Contact Us</h2>
+        <p>
+            If you have any questions regarding this Privacy Policy, contact us at:
+        </p>
+        <p><strong>Email:</strong> support@grocmed.com</p>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3>Groc<span>Med</span></h3>
+                <p>
+                    Smart supply platform for snacks, chocolates, biscuits, and daily retail essentials.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#">Home</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Support</a>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>support@grocmed.com</p>
+                <p>© 2026 GrocMed</p>
+            </div>
+        </div>
+
+        <div class="copyright">
+            © 2026 GrocMed. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+
+</html>
